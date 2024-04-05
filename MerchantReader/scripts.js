@@ -1,4 +1,5 @@
-var url = "https://api.thingspeak.com/channels/2497964/fields/1.json?3TCERFapi_key=JZ51OBBLGM&results=1";
+var api_key = "4HUPWPTBRAS5HQ0C";
+var url = "https://api.thingspeak.com/channels/2497964/fields/1.json?api_key=" + api_key + "&results=1";
 
 function httpGetAsync(url, callback)
 {
